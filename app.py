@@ -7,7 +7,7 @@ CORS(app)
 @app.route("/")
 def home():
     return jsonify({
-        "message": "Backend Running Successfully"
+        "message": "CI/CD Pipeline Working Successfully"
     })
 
 @app.route("/submit", methods=["POST"])
